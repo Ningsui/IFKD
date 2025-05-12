@@ -1,6 +1,6 @@
 This is the code for the ACM MM2024 paper "Information Fusion with Knowledge Distillation for Fine-grained Remote Sensing Object Detection"
 
-Our codes are based on mmrotate. Please follow the installation of mmrotate and make sure you can run it successfully.
+Our codes are based on mmrotate. Please follow the installation of MMDetection and make sure you can run it successfully.
 
 Add and Replace the codes Add the configs/. in our codes to the configs/ in mmdetectin's codes. Add the mmdet/models/detectors/. in our codes to the mmdet/models/detectors/.
 
@@ -26,22 +26,17 @@ series = {MM '24}
 }
 ```
 
-This project is based on the open source codebase [mmrotate]((https://github.com/open-mmlab/mmrotate)).
+This project is based on the open source codebase [MMDetection]((https://github.com/open-mmlab/MMDetection)).
 ```
-@inproceedings{10.1145/3503161.3548541,
-author = {Zhou, Yue and Yang, Xue and Zhang, Gefan and Wang, Jiabao and Liu, Yanyi and Hou, Liping and Jiang, Xue and Liu, Xingzhao and Yan, Junchi and Lyu, Chengqi and Zhang, Wenwei and Chen, Kai},
-title = {MMRotate: A Rotated Object Detection Benchmark using PyTorch},
-year = {2022},
-isbn = {9781450392037},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3503161.3548541},
-doi = {10.1145/3503161.3548541},
-booktitle = {Proceedings of the 30th ACM International Conference on Multimedia},
-pages = {7331–7334},
-numpages = {4},
-keywords = {rotation detection, oriented object detection, open source},
-location = {Lisboa, Portugal},
-series = {MM '22}
+@article{mmdetection,
+  title   = {{MMDetection}: Open MMLab Detection Toolbox and Benchmark},
+  author  = {Chen, Kai and Wang, Jiaqi and Pang, Jiangmiao and Cao, Yuhang and
+             Xiong, Yu and Li, Xiaoxiao and Sun, Shuyang and Feng, Wansen and
+             Liu, Ziwei and Xu, Jiarui and Zhang, Zheng and Cheng, Dazhi and
+             Zhu, Chenchen and Cheng, Tianheng and Zhao, Qijie and Li, Buyu and
+             Lu, Xin and Zhu, Rui and Wu, Yue and Dai, Jifeng and Wang, Jingdong
+             and Shi, Jianping and Ouyang, Wanli and Loy, Chen Change and Lin, Dahua},
+  journal= {arXiv preprint arXiv:1906.07155},
+  year={2019}
 }
 ```
